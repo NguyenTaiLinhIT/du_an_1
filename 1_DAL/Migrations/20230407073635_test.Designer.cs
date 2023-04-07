@@ -12,7 +12,7 @@ using _1_DAL.QuanLyDBContext;
 namespace _1_DAL.Migrations
 {
     [DbContext(typeof(QuanLyDatabaseContext))]
-    [Migration("20230407051712_test")]
+    [Migration("20230407073635_test")]
     partial class test
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

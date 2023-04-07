@@ -1,44 +1,53 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace _3_PL
+namespace FrmDuAn1
 {
-    public partial class FrmBanHang : Form
+    public partial class frmBanHang : Form
     {
-        public FrmBanHang()
+        public frmBanHang()
         {
             InitializeComponent();
-            Panel plChuaTatCaForm = new Panel();
         }
 
-        private void FrmBanHang_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+
         }
 
-        private void btnQuanLyCuaHang_Click(object sender, EventArgs e)
+        private void BanHang_Load(object sender, EventArgs e)
         {
-            frmHang frmHang = new frmHang();
-            frmHang.TopLevel = false;
-            frmHang.Dock = DockStyle.Fill;
-            frmHang.TopMost = true;
-            frmHang.FormBorderStyle = FormBorderStyle.None;
-            plChuaTatCaForm.Controls.Add(frmHang);
-            frmHang.Show();
+
         }
 
-        private void plChuaTatCaForm_Paint(object sender, PaintEventArgs e)
+        private void label18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
         {
 
         }

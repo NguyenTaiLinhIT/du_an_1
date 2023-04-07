@@ -34,7 +34,7 @@ namespace _1_DAL.QuanLyDBContext
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=ANTHONYPC\SQLEXPRESS;Initial Catalog=du_an_1_;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Data Source=QUOC\SQLEXPRESS;Initial Catalog=du_an_1_;Integrated Security=True");
         }
     }
 }
